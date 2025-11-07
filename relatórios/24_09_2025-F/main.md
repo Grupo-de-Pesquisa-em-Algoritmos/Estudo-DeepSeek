@@ -1,0 +1,59 @@
+## Versões do DeepSeek:
+O DeepSeek possui várias versões, dentre elas, a ideal para o projeto seria uma focada em linguagem natural com baixo consumo de recursos (devido as restrições do Raspberry Pi).
+1. DeepSeek LLM (7B)
+- Especializado em linguagem natural
+- Generalista para conversação e texto
+- Versões menores (7B) são mais viáveis para Raspberry Pi
+- Otimizado para tarefas de texto puro
+
+7B se refere ao número de parâmetros gerados a partir do treinamento, nesse caso, 7 bilhões.
+Parâmetros: são como "neurônios" da IA - conexões que o modelo aprendeu durante o treinamento.
+Analogia: quanto mais parâmetros, geralmente mais inteligente o modelo, mas também mais pesado.
+
+## Problemas com o DeepSeek:
+
+### Tamanho:
+Tamanho original (sem quantização): ≈ 14-16 GB em precisão total (16-bit ou 32-bit), inviável para o Pi. Além disso, o ideal seria armazenar o modelo em um SSD externo e não em um cartão microSD.
+Para contornar esse problema podemos usar a Quantização: Consiste em reduzir a precisão dos parâmetros, de 16 bits para 3-4 bits. Isso reduz o tamanho do modelo de 16GB para 3-4GB. 
+
+Também existe uma outra alternativa: retreinar o DeepSeek:
+
+Fine-tuning (Mais Viável)
+  * Ajustar os parâmetros existentes para uma tarefa específica.
+  * Como: dar exemplos do que você quer que o modelo aprenda.
+  * Requer menos recursos que treinar do zero.
+
+ Treinar do Zero (Muito Difícil)
+  * Criar uma nova base de parâmetros desde o início.
+  * Requer: dados massivos, GPU de alo desempenho, semanas/meses de treino. 
+
+Dentre essas opções, a única que reduz o impacto no desempenho final é o treinamento do zero. O fine-tunning apenas direciona e dá uma "personalidade" para o DeepSeek; é como ensinar ele a reagir a determinados tipos de entrada com base em exemplos. 
+
+### Problemas:
+
+Tokens por Palavra:
+Português: ~1.3 tokens por palavra
+
+Exemplo: "Bom dia, como você está?" = 5 palavras e 2 sinais gráficos ≈ 8 tokens
+
+Velocidade de Fala Humana:
+- Fala normal: 120-150 palavras por minuto
+- Isso equivale: 2-2.5 palavras/segundo ≈ 3-4 tokens/segundo
+
+O Problema:
+Mesmo com a versão quantizada para 4 bits, o Pi gera 2-3 tokens/segundo ≠ humano fala 3-4 tokens/segundo
+Resultado: atraso perceptível, conversa não fluida.
+
+Com DeepSeek LLM 7B (4-bit):
+- Velocidade estimada: 1-3 tokens/segundo (dependendo da carga)
+- Tempo para responder "Bom dia!" (3 palavras ≈ 4 tokens):
+- 2-4 segundos de espera → Aceitável para frases curtas
+- Tempo para responder 20 palavras (≈26 tokens): 10-20 segundos de espera → Impraticável
+
+  
+Possiveis soluções: há algumas versões menores do DeepSeek, além das oficiais. A mais simples delas é a com 1.3B de parâmetros DeepSeek-R1-Distill-Qwen-1.5B, com tamanho aproximado de 2.5GB. Note que é possível quantizar esse modelo para 4 bits, isso resulta em 700MB e 10-15 tokens/s no Pi (provavelmente 8-15 tokens/segundo), assim temos um tempo de resposta de 2-3 segundos. 
+
+
+## Download e execução local: Podemos usar um script simples em Python:
+Acesse o arquivo em DownloadDeepSeek.py: https://github.com/Fabriciofkt157/DeepSeek-IC/blob/main/relat%C3%B3rios/24_09_2025-F/downloadDeepSeek.py
+
