@@ -9,3 +9,9 @@ chmod +x setup.sh
 ./setup.sh
 
 * o script pode parecer travado, mas não se preocupe pois as instalações levam tempo.
+
+ative o env criado:
+
+source deepseek_env/bin/activate
+
+execute o script para o DeepSeek (sugerido 7B (padrão)): [script]()
