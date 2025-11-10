@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- 1. Definições Iniciais ---
-ENV_NAME="deepseek_teste"
+ENV_NAME="deepseek_env"
 PYTHON_SCRIPT="deepseek_inference.py"
 
 
