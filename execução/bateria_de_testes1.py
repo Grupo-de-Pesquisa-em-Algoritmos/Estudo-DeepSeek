@@ -3,6 +3,7 @@ import torch
 import psutil
 import os
 import gc
+import shutil
 from datetime import datetime
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
@@ -11,6 +12,10 @@ PROMPT_ENTRADA = "Olá! Qual o seu nome e quem te criou?"
 MAX_CARACTERES = 1000
 DATA_ATUAL = datetime.now().strftime("%Y-%m-%d")
 NOME_ARQUIVO_SAIDA = f"testes_IAs_{DATA_ATUAL}.txt"
+
+# Caminho para a pasta de SWAP (no mesmo diretório do script)
+DIRETORIO_SCRIPT = os.path.dirname(os.path.abspath(__file__))
+PASTA_SWAP = os.path.join(DIRETORIO_SCRIPT, "swap")
 
 MODELOS_PARA_TESTAR = [
     {"nome": "DeepSeek-Coder-1.3B", "id": "deepseek-ai/deepseek-coder-1.3b-instruct"},
@@ -29,10 +34,19 @@ def obter_uso_ram():
     return f"{uso_bytes / (1024 ** 3):.2f} GB"
 
 def limpar_memoria_gpu():
+    """Limpeza profunda de memória."""
     gc.collect()
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
         torch.cuda.ipc_collect()
+
+def limpar_pasta_swap():
+    """Remove a pasta de swap se ela existir para liberar espaço em disco."""
+    if os.path.exists(PASTA_SWAP):
+        try:
+            shutil.rmtree(PASTA_SWAP)
+        except Exception as e:
+            print(f"Aviso: Não foi possível apagar a pasta swap: {e}")
 
 def log_sistema(mensagem):
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {mensagem}")
@@ -50,6 +64,7 @@ def rodar_modelo(modelo_info):
     print("="*50)
     log_sistema(f"PREPARANDO: {nome_amigavel}")
     log_sistema(f"ID HuggingFace: {modelo_id}")
+    log_sistema(f"Pasta de Swap configurada: {PASTA_SWAP}")
     print("="*50)
     
     try:
@@ -59,13 +74,19 @@ def rodar_modelo(modelo_info):
         log_sistema("Carregando Tokenizer...")
         tokenizer = AutoTokenizer.from_pretrained(modelo_id, trust_remote_code=True)
         
-        log_sistema("Carregando Modelo (isso pode demorar na 1ª vez)...")
+        log_sistema("Carregando Modelo (Se faltar RAM, usará o DISCO)...")
+        
+        # Garante que a pasta swap existe antes de começar
+        os.makedirs(PASTA_SWAP, exist_ok=True)
+
         modelo = AutoModelForCausalLM.from_pretrained(
             modelo_id,
-            device_map="auto",
+            device_map="auto", 
             torch_dtype=dtype,
             trust_remote_code=True,
-            low_cpu_mem_usage=True
+            low_cpu_mem_usage=True,
+            offload_folder=PASTA_SWAP,  # <--- Define a pasta local ./swap
+            offload_state_dict=True     # <--- Permite jogar pesos para o disco
         )
 
         ram_inicial = obter_uso_ram()
@@ -73,8 +94,8 @@ def rodar_modelo(modelo_info):
         messages = [{"role": "user", "content": PROMPT_ENTRADA}]
         
         inputs = tokenizer.apply_chat_template(
-            messages,
-            add_generation_prompt=True,
+            messages, 
+            add_generation_prompt=True, 
             return_tensors="pt"
         ).to(modelo.device)
 
@@ -83,8 +104,8 @@ def rodar_modelo(modelo_info):
 
         with torch.no_grad():
             outputs = modelo.generate(
-                inputs,
-                max_new_tokens=500,
+                inputs, 
+                max_new_tokens=500, 
                 do_sample=True,
                 temperature=0.6,
                 top_p=0.9,
@@ -114,16 +135,19 @@ def rodar_modelo(modelo_info):
         log_sistema(f"Sucesso! Tempo: {tempo_total:.2f}s.")
         print(f"\nPrévia da resposta:\n{resposta_completa[:200]}...\n")
 
+        # Limpeza
         del inputs, outputs, modelo, tokenizer, tokens_gerados
         limpar_memoria_gpu()
+        limpar_pasta_swap() # Limpa o disco
 
     except Exception as e:
         erro_msg = f"ERRO CRÍTICO em {nome_amigavel}: {str(e)}"
         print(f"\n!!! {erro_msg} !!!\n")
         salvar_resultado(f"MODELO: {nome_amigavel}\nSTATUS: FALHA\nERRO: {str(e)}\n")
         limpar_memoria_gpu()
+        limpar_pasta_swap()
 
-    time.sleep(2)
+    time.sleep(2) 
 
 if __name__ == "__main__":
     limpar_tela_visual()
@@ -134,7 +158,8 @@ if __name__ == "__main__":
         f.write("="*50 + "\n")
 
     print(f"Iniciando bateria de testes com {len(MODELOS_PARA_TESTAR)} modelos...\n")
-    time.sleep(1)
+    print(f"AVISO: O modelo DeepSeek-LLM-7B pode usar o disco (swap) se a RAM encher.\nIsso criará arquivos temporários em: {PASTA_SWAP}\n")
+    time.sleep(3)
     
     for modelo in MODELOS_PARA_TESTAR:
         rodar_modelo(modelo)
