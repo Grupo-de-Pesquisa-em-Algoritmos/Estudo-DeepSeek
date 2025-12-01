@@ -6,7 +6,8 @@ import gc
 from datetime import datetime
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-PROMPT_ENTRADA = "Olá! Qual o seu nome?"
+# --- CONFIGURAÇÕES ---
+PROMPT_ENTRADA = "Olá! Qual o seu nome e quem te criou?"
 MAX_CARACTERES = 1000
 DATA_ATUAL = datetime.now().strftime("%Y-%m-%d")
 NOME_ARQUIVO_SAIDA = f"testes_IAs_{DATA_ATUAL}.txt"
@@ -19,12 +20,15 @@ MODELOS_PARA_TESTAR = [
     {"nome": "DeepSeek-LLM-7B", "id": "deepseek-ai/deepseek-llm-7b-chat"}
 ]
 
+def limpar_tela_visual():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 def obter_uso_ram():
     processo = psutil.Process(os.getpid())
     uso_bytes = processo.memory_info().rss
     return f"{uso_bytes / (1024 ** 3):.2f} GB"
 
-def limpar_memoria():
+def limpar_memoria_gpu():
     gc.collect()
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
@@ -41,43 +45,57 @@ def rodar_modelo(modelo_info):
     nome_amigavel = modelo_info["nome"]
     modelo_id = modelo_info["id"]
     
-    log_sistema(f"--- Iniciando teste: {nome_amigavel} ---")
-    log_sistema(f"Baixando/Carregando modelo: {modelo_id}...")
+    limpar_tela_visual()
+    
+    print("="*50)
+    log_sistema(f"PREPARANDO: {nome_amigavel}")
+    log_sistema(f"ID HuggingFace: {modelo_id}")
+    print("="*50)
     
     try:
         device = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"
-        dtype = torch.float16 if device == "cuda" else torch.float32
+        dtype = torch.bfloat16 if (device == "cuda" and torch.cuda.is_bf16_supported()) else torch.float16 if device == "cuda" else torch.float32
 
+        log_sistema("Carregando Tokenizer...")
         tokenizer = AutoTokenizer.from_pretrained(modelo_id, trust_remote_code=True)
         
+        log_sistema("Carregando Modelo (isso pode demorar na 1ª vez)...")
         modelo = AutoModelForCausalLM.from_pretrained(
             modelo_id,
-            device_map="auto", 
+            device_map="auto",
             torch_dtype=dtype,
             trust_remote_code=True,
             low_cpu_mem_usage=True
         )
 
         ram_inicial = obter_uso_ram()
-        log_sistema(f"Modelo carregado. RAM usada pelo script: {ram_inicial}. Dispositivo: {modelo.device}")
-
-        inputs = tokenizer(PROMPT_ENTRADA, return_tensors="pt").to(modelo.device)
+        
+        messages = [{"role": "user", "content": PROMPT_ENTRADA}]
+        
+        inputs = tokenizer.apply_chat_template(
+            messages,
+            add_generation_prompt=True,
+            return_tensors="pt"
+        ).to(modelo.device)
 
         log_sistema("Gerando resposta...")
         start_time = time.time()
 
         with torch.no_grad():
             outputs = modelo.generate(
-                **inputs, 
-                max_new_tokens=500, 
+                inputs,
+                max_new_tokens=500,
                 do_sample=True,
-                temperature=0.7
+                temperature=0.6,
+                top_p=0.9,
+                pad_token_id=tokenizer.eos_token_id
             )
         
         end_time = time.time()
         tempo_total = end_time - start_time
         
-        resposta_completa = tokenizer.decode(outputs[0], skip_special_tokens=True)
+        tokens_gerados = outputs[0][len(inputs[0]):]
+        resposta_completa = tokenizer.decode(tokens_gerados, skip_special_tokens=True)
         
         if len(resposta_completa) > MAX_CARACTERES:
             resposta_completa = resposta_completa[:MAX_CARACTERES] + "... [CORTADO]"
@@ -93,27 +111,32 @@ def rodar_modelo(modelo_info):
         )
         
         salvar_resultado(log_texto)
-        log_sistema(f"Sucesso! Tempo: {tempo_total:.2f}s. Salvo em {NOME_ARQUIVO_SAIDA}")
+        log_sistema(f"Sucesso! Tempo: {tempo_total:.2f}s.")
+        print(f"\nPrévia da resposta:\n{resposta_completa[:200]}...\n")
 
-        del inputs, outputs, modelo, tokenizer
-        limpar_memoria()
+        del inputs, outputs, modelo, tokenizer, tokens_gerados
+        limpar_memoria_gpu()
 
     except Exception as e:
-        erro_msg = f"ERRO ao rodar {nome_amigavel}: {str(e)}"
-        log_sistema(erro_msg)
+        erro_msg = f"ERRO CRÍTICO em {nome_amigavel}: {str(e)}"
+        print(f"\n!!! {erro_msg} !!!\n")
         salvar_resultado(f"MODELO: {nome_amigavel}\nSTATUS: FALHA\nERRO: {str(e)}\n")
-        limpar_memoria()
+        limpar_memoria_gpu()
+
+    time.sleep(2)
 
 if __name__ == "__main__":
+    limpar_tela_visual()
+    
     with open(NOME_ARQUIVO_SAIDA, "w", encoding="utf-8") as f:
         f.write(f"RELATÓRIO DE TESTE DE IAs - {DATA_ATUAL}\n")
-        f.write(f"Hardware Detectado: GPU={'Sim' if torch.cuda.is_available() else 'Não'}\n")
+        f.write(f"Hardware GPU: {'Sim' if torch.cuda.is_available() else 'Não'}\n")
         f.write("="*50 + "\n")
 
     print(f"Iniciando bateria de testes com {len(MODELOS_PARA_TESTAR)} modelos...\n")
+    time.sleep(1)
     
     for modelo in MODELOS_PARA_TESTAR:
         rodar_modelo(modelo)
-        print("-" * 30)
     
-    print("\nBateria de testes finalizada!")
+    print("\nBateria de testes finalizada! Verifique o arquivo .txt")
