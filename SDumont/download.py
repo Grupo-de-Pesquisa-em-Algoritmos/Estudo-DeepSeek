@@ -8,5 +8,5 @@ snapshot_download(
     local_dir="/scratch/unioeste/hefesto/fabricio.tanquella/DeepSeek-R1",
     local_dir_use_symlinks=False,
     max_workers=8,
-    token="COLE_SEU_TOKEN_AQUI"
+    token="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"
 )
