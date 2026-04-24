@@ -1,0 +1,59 @@
+=== Relatório de Performance (modelos/deepseek-llm-7b-chat.Q6_K.gguf) ===
+Tempo de execução: 106.54 s
+Tokens por segundo: 1.67 t/s
+RAM Total Utilizada (Unificada): 5.37 GB
+
+=== Resposta do Modelo ===
+Ao longo dos anos, o Brasil enfrentou diversas questões relacionadas à cidadania e à segurança jurídica, tais como a discriminação racial, a questão do homem sem título e o trâmite de certidões de nascimento. Uma das questões mais atuais e discutidas na sociedade brasileira é o fato de que muitos usuários de redes sociais e outras plataformas digitais não estão registrados no sistema civil, o que dificulta a obtenção de direitos e garantias. De acordo com a Lei nº 11.880/2006, a inclusão de dados das pessoas não
+
+=== Relatório de Performance (modelos/deepseek-llm-7b-chat.Q6_K.gguf) ===
+Tempo de execução: 100.12 s
+Tokens por segundo: 1.78 t/s
+RAM Total Utilizada (Unificada): 5.37 GB
+
+=== Resposta do Modelo ===
+
+Resumo
+
+A valorização e preservação das comunidades e povos tradicionais no Brasil representam desafios sérios para a sociedade contemporânea. Ao longo dos anos, as culturas e práticas dos povos indígenas e quilombolas foram ameaçadas ou, até mesmo, extintas devido às pressões exercidas pela civilização moderna. No entanto, a preservação e valorização dessas comunidades é crucial para que a diversidade cultural não seja perder e para que as sociedades modernas aprendam a respeitar e compartilhar a diversidade de culturas, saberes e práticas.
+
+Antecedentes e Contexto
+
+
+=== Relatório de Performance (modelos/deepseek-llm-7b-chat.Q6_K.gguf) ===
+Tempo de execução: 94.96 s
+Tokens por segundo: 1.78 t/s
+RAM Total Utilizada (Unificada): 5.37 GB
+
+=== Resposta do Modelo ===
+
+Introdução
+
+A invisibilidade do trabalho de cuidado é um tema que se mantém presente na discussão sobre desigualdade de gênero e na construção da sociedade. O trabalho de cuidar, especialmente o cuidado feminino, tem sido sempre visto como uma responsabilidade natural e de caráter doméstico, enquanto o trabalho masculino é valorizado e reconhecido em nível econômico e político. Isso contribui para a perpetuação do estereótipo de que o gênero é uma diferença essencial e natural, e não uma construção social.
+
+O trabalho de cuidar é fundamental
+
+=== Relatório de Performance (modelos/deepseek-llm-7b-chat.Q6_K.gguf) ===
+Tempo de execução: 100.05 s
+Tokens por segundo: 1.80 t/s
+RAM Total Utilizada (Unificada): 5.37 GB
+
+=== Resposta do Modelo ===
+
+Palavras-chave: herança africana, cultura, identidade, desvalorização, valorização
+
+Resumo
+
+O Brasil é uma sociedade multicultural e, portanto, é repleta de heranças de diversos povos e culturas que chegaram ao país com o tempo. Entre esses povos, os africanos tem tido um impacto significativo na história, na cultura e na identidade brasileira. No entanto, a recente desvalorização da herança africana no Brasil é um desafio que precisamos enfrentar para garantir o reconhecimento e valorização desta parte importante da nossa história. Este trabalho visa apresentar a necessidade de valorizar a heran
+
+=== Relatório de Performance (modelos/deepseek-llm-7b-chat.Q6_K.gguf) ===
+Tempo de execução: 100.38 s
+Tokens por segundo: 1.79 t/s
+RAM Total Utilizada (Unificada): 5.38 GB
+
+=== Resposta do Modelo ===
+
+Ao longo dos anos, o envelhecimento tem sido um tema de grande interesse para as sociedades mundiais, e cada vez mais, a sociedade brasileira também está se interessando por questões relacionadas à idade, especialmente em relação aos problemas de saúde, assistência social e previdência. Desta forma, nesta dissertativa argumentativa, pretendemos apresentar algumas perspectivas sobre o envelhecimento na sociedade brasileira, afinar nossa proposta de intervenção e discutir as consequências dessa discussão.
+
+Para começar, é importante frisar que o envelhecimento é um fenômeno natural e inevitável, e
+
