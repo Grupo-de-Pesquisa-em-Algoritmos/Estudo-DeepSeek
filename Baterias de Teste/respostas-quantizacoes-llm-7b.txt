@@ -1,0 +1,548 @@
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
+Tempo de execução: 0.18
+Tokens por segundo: 67.77 t/s
+VRAM Total Utilizada: 6.97 GB
+Consumo Total: 97.02 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 6.97 GB | Consumo 97.02 W
+
+=== Resposta do Modelo ===
+Olá! Como posso lhe ajudar hoje?
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
+Tempo de execução: 1.95
+Tokens por segundo: 134.26 t/s
+VRAM Total Utilizada: 6.97 GB
+Consumo Total: 283.76 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 6.97 GB | Consumo 283.76 W
+
+=== Resposta do Modelo ===
+Ser bissexual significa que uma pessoa tem atração romântica e/ou atração sexual por pessoas do mesmo sexo e/ou pessoas do outro sexo. Isso pode significar que uma pessoa tem interesse em relacionamentos românticos e/ou sexuais com homens e/ou mulheres. Ser bissexual é uma forma de identidade de gênero e sexualidade e pode ser um aspecto importante da vida de uma pessoa.
+
+Ser bissexual não é necessariamente diferente do ser heterossexual ou homossexual, a diferença é apenas na atração romântica e/ou sexual. A importância é que a pessoa se identifique como bissexual e que ela/ele encontra felicidade e autenticidade nessa identidade.
+
+É importante lembrar que ser bissexual não é uma escolha ou comportamento, é uma identidade natural e inerente à pessoa. A importância é que a pessoa se identifique e seja feliz com essa identidade, sem se sentir pressionada a ser algo que não é.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
+Tempo de execução: 3.17
+Tokens por segundo: 122.27 t/s
+VRAM Total Utilizada: 6.98 GB
+Consumo Total: 279.75 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 6.98 GB | Consumo 279.75 W
+
+=== Resposta do Modelo ===
+Há muitos anos, na terra de Valtoria, vivia uma jovem chamada Lila. Ela era uma menina bonita e inteligente, mas vivia em uma pequena vila no meio de uma floresta. Um dia, Lila descobriu que ela tinha poderes mágicos, e ela decidiu usar seus poderes para ajudar os habitantes da vila.
+
+Mas, a vila estava ameaçada por uma força maléfica chamada o Rei das Trevas, que tentava dominar a terra e seus habitantes. Lila juntou-se aos outros heróis da vila e começou uma jornada para derrotar o Rei das Trevas e salvar a terra de Valtoria.
+
+Durante sua jornada, Lila descobriu que ela tinha poderes mágicos inacreditáveis, e ela usou seus poderes para derrotar inimigos poderosos e salvar seus amigos. Ela também descobriu que ela tinha uma relação especial com o Rei das Trevas, que era na verdade um antigo amigo que havia se tornado maléfico.
+
+No final da jornada, Lila e seus amigos chegaram ao palácio do Rei das Trevas e lutaram contra ele em uma batalha final. Lila usou seus poderes mágicos para derrotar o Rei das Trevas e salvar a terra de Valtoria.
+
+Depois da batalha, Lila e seus amigos foram recebidos como heróis da vila. Ela continuou usando seus poderes mágicos para ajudar os habitantes da vila e viver uma vida feliz e plena.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
+Tempo de execução: 4.03
+Tokens por segundo: 128.64 t/s
+VRAM Total Utilizada: 6.98 GB
+Consumo Total: 282.62 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 6.98 GB | Consumo 282.62 W
+
+=== Resposta do Modelo ===
+A geopolítica é uma disciplina que se preocupa com a interação entre política e geografia, ou seja, com a forma como a geografia influencia a política e como a política pode ser usada para manipular a geografia. A geopolítica pode ser aplicada em muitos contextos, incluindo a política internacional, a segurança nacional e a gestão de recursos naturais.
+
+Uma das principais características da geopolítica é a análise da distribuição de poder e da influência entre diferentes entidades, como nações, grupos étnicos, religiões e empresas. A geopolítica também se preocupa com a forma como as fronteiras são estabelecidas e modificadas, bem como com a forma como os recursos naturais são explorados e distribuídos.
+
+Uma das principais tarefas da geopolítica é entender como as entidades geopolíticas se relacionam com as outras e como essas relações podem ser usadas para alcançar objetivos políticos específicos. Por exemplo, uma nação pode usar a geopolítica para expandir seu território, proteger seus interesses econômicos ou garantir a segurança nacional.
+
+A geopolítica também se preocupa com a forma como as ideologias políticas e as ideias de segurança podem ser usadas para justificar ações militares ou diplomáticas. Por exemplo, uma nação pode usar a ideia de uma "guerra contra o terrorismo" como uma justificativa para expandir seu poder militar ou para interferir na política de outras nações.
+
+Em resumo, a geopolítica é uma disciplina que se preocupa com a interação entre política e geografia, e com a forma como essas duas áreas se relacionam. Ela se concentra na distribuição de poder e na influência entre diferentes entidades, bem como na forma como as fronteiras são estabelecidas e modificadas, e na exploração e distribuição de recursos naturais.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
+Tempo de execução: 3.15
+Tokens por segundo: 130.46 t/s
+VRAM Total Utilizada: 6.98 GB
+Consumo Total: 287.64 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 6.98 GB | Consumo 287.64 W
+
+=== Resposta do Modelo ===
+Olá! Se você está procurando por dicas para se declarar em várias línguas, aqui estão algumas dicas gerais que podem ajudar:
+
+1. Comece com uma breve introdução: Comece sua declaração com uma breve introdução que revele seu interesse na pessoa e o motivo pelo qual você está se declarando.
+2. Use palavras simples e claras: Se você está falando em uma língua diferente, use palavras simples e claras para que a pessoa entenda o que você está dizendo.
+3. Use gestos e expressões faciais: Além das palavras, use gestos e expressões faciais para expressar seu sentimento e intensidade emocional.
+4. Pronunciar corretamente: Pronunciar corretamente as palavras é fundamental para que a pessoa entenda o que você está dizendo.
+5. Use recursos de tradução: Se você não estiver confortável falando a língua da pessoa, use recursos de tradução como dicas de tradução ou um tradutor.
+6. Fique calmo: Fique calmo e relaxado durante a declaração, pois isso ajudará a manter a pessoa interessada e a entender o que você está dizendo.
+7. Fique firme: Fique firme e determinado em sua declaração, pois isso mostrará que você está serio e que está pronto para assumir o compromisso.
+
+Espero que essas dicas tenham ajudado! Se você precisar de mais orientação ou sugestões, não hesite em perguntar!
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
+Tempo de execução: 0.15
+Tokens por segundo: 77.64 t/s
+VRAM Total Utilizada: 6.97 GB
+Consumo Total: 83.22 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 6.97 GB | Consumo 83.22 W
+
+=== Resposta do Modelo ===
+Olá! Como posso lhe ajudar hoje?
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
+Tempo de execução: 1.92
+Tokens por segundo: 136.34 t/s
+VRAM Total Utilizada: 6.97 GB
+Consumo Total: 290.57 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 6.97 GB | Consumo 290.57 W
+
+=== Resposta do Modelo ===
+Ser bissexual significa que uma pessoa tem atração romântica e/ou atração sexual por pessoas do mesmo sexo e/ou pessoas do outro sexo. Isso pode significar que uma pessoa tem interesse em relacionamentos românticos e/ou sexuais com homens e/ou mulheres. Ser bissexual é uma forma de identidade de gênero e sexualidade e pode ser um aspecto importante da vida de uma pessoa.
+
+Ser bissexual não é necessariamente diferente do ser heterossexual ou homossexual, a diferença é apenas na atração romântica e/ou sexual. A importância é que a pessoa se identifique como bissexual e que ela/ele encontra felicidade e autenticidade nessa identidade.
+
+É importante lembrar que ser bissexual não é uma escolha ou comportamento, é uma identidade natural e inerente à pessoa. A importância é que a pessoa se identifique e seja feliz com essa identidade, sem se sentir pressionada a ser algo que não é.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
+Tempo de execução: 3.02
+Tokens por segundo: 128.20 t/s
+VRAM Total Utilizada: 6.98 GB
+Consumo Total: 289.39 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 6.98 GB | Consumo 289.39 W
+
+=== Resposta do Modelo ===
+Há muitos anos, na terra de Valtoria, vivia uma jovem chamada Lila. Ela era uma menina bonita e inteligente, mas vivia em uma pequena vila no meio de uma floresta. Um dia, Lila descobriu que ela tinha poderes mágicos, e ela decidiu usar seus poderes para ajudar os habitantes da vila.
+
+Mas, a vila estava ameaçada por uma força maléfica chamada o Rei das Trevas, que tentava dominar a terra e seus habitantes. Lila juntou-se aos outros heróis da vila e começou uma jornada para derrotar o Rei das Trevas e salvar a terra de Valtoria.
+
+Durante sua jornada, Lila descobriu que ela tinha poderes mágicos inacreditáveis, e ela usou seus poderes para derrotar inimigos poderosos e salvar seus amigos. Ela também descobriu que ela tinha uma relação especial com o Rei das Trevas, que era na verdade um antigo amigo que havia se tornado maléfico.
+
+No final da jornada, Lila e seus amigos chegaram ao palácio do Rei das Trevas e lutaram contra ele em uma batalha final. Lila usou seus poderes mágicos para derrotar o Rei das Trevas e salvar a terra de Valtoria.
+
+Depois da batalha, Lila e seus amigos foram recebidos como heróis da vila. Ela continuou usando seus poderes mágicos para ajudar os habitantes da vila e viver uma vida feliz e plena.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
+Tempo de execução: 3.96
+Tokens por segundo: 130.88 t/s
+VRAM Total Utilizada: 6.98 GB
+Consumo Total: 284.74 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 6.98 GB | Consumo 284.74 W
+
+=== Resposta do Modelo ===
+A geopolítica é uma disciplina que se preocupa com a interação entre política e geografia, ou seja, com a forma como a geografia influencia a política e como a política pode ser usada para manipular a geografia. A geopolítica pode ser aplicada em muitos contextos, incluindo a política internacional, a segurança nacional e a gestão de recursos naturais.
+
+Uma das principais características da geopolítica é a análise da distribuição de poder e da influência entre diferentes entidades, como nações, grupos étnicos, religiões e empresas. A geopolítica também se preocupa com a forma como as fronteiras são estabelecidas e modificadas, bem como com a forma como os recursos naturais são explorados e distribuídos.
+
+Uma das principais tarefas da geopolítica é entender como as entidades geopolíticas se relacionam com as outras e como essas relações podem ser usadas para alcançar objetivos políticos específicos. Por exemplo, uma nação pode usar a geopolítica para expandir seu território, proteger seus interesses econômicos ou garantir a segurança nacional.
+
+A geopolítica também se preocupa com a forma como as ideologias políticas e as ideias de segurança podem ser usadas para justificar ações militares ou diplomáticas. Por exemplo, uma nação pode usar a ideia de uma "guerra contra o terrorismo" como uma justificativa para expandir seu poder militar ou para interferir na política de outras nações.
+
+Em resumo, a geopolítica é uma disciplina que se preocupa com a interação entre política e geografia, e com a forma como essas duas áreas se relacionam. Ela se concentra na distribuição de poder e na influência entre diferentes entidades, bem como na forma como as fronteiras são estabelecidas e modificadas, e na exploração e distribuição de recursos naturais.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
+Tempo de execução: 3.10
+Tokens por segundo: 132.76 t/s
+VRAM Total Utilizada: 6.98 GB
+Consumo Total: 291.10 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 6.98 GB | Consumo 291.10 W
+
+=== Resposta do Modelo ===
+Olá! Se você está procurando por dicas para se declarar em várias línguas, aqui estão algumas dicas gerais que podem ajudar:
+
+1. Comece com uma breve introdução: Comece sua declaração com uma breve introdução que revele seu interesse na pessoa e o motivo pelo qual você está se declarando.
+2. Use palavras simples e claras: Se você está falando em uma língua diferente, use palavras simples e claras para que a pessoa entenda o que você está dizendo.
+3. Use gestos e expressões faciais: Além das palavras, use gestos e expressões faciais para expressar seu sentimento e intensidade emocional.
+4. Pronunciar corretamente: Pronunciar corretamente as palavras é fundamental para que a pessoa entenda o que você está dizendo.
+5. Use recursos de tradução: Se você não estiver confortável falando a língua da pessoa, use recursos de tradução como dicas de tradução ou um tradutor.
+6. Fique calmo: Fique calmo e relaxado durante a declaração, pois isso ajudará a manter a pessoa interessada e a entender o que você está dizendo.
+7. Fique firme: Fique firme e determinado em sua declaração, pois isso mostrará que você está serio e que está pronto para assumir o compromisso.
+
+Espero que essas dicas tenham ajudado! Se você precisar de mais orientação ou sugestões, não hesite em perguntar!
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q5_K_M.gguf) ===
+Tempo de execução: 0.26
+Tokens por segundo: 113.07 t/s
+VRAM Total Utilizada: 7.58 GB
+Consumo Total: 103.94 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 7.58 GB | Consumo 103.94 W
+
+=== Resposta do Modelo ===
+Olá! Como posso ajudar você hoje? Gostaria de saber mais sobre o que você quer saber ou precisar?
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q5_K_M.gguf) ===
+Tempo de execução: 3.42
+Tokens por segundo: 119.38 t/s
+VRAM Total Utilizada: 7.58 GB
+Consumo Total: 294.94 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 7.58 GB | Consumo 294.94 W
+
+=== Resposta do Modelo ===
+Ser bissexual significa que uma pessoa tem atração romântica e sexual tanto para pessoas do mesmo sexo como para pessoas do sexo oposto. Isso pode significar que eles podem desejar namorar ou se envolver sexualmente com indivíduos de ambos os sexos. A identidade de gênero ou orientação sexual de uma pessoa não afeta o fato de que eles são bissexuais.
+
+Ser bissexual é como ser qualquer outra identidade de gênero ou orientação sexual. É uma parte da diversidade humana e não é algo a ser julgado ou criticado. Muitas pessoas que são bissexuais experimentam sentimentos românticos e atrações sexuais por ambos os sexos ao longo de suas vidas.
+
+É importante lembrar que a identidade de gênero e a orientação sexual são diferentes. A identidade de gênero refere-se às identidades de pessoas que se identificam com um gênero diferente do que o atribuído ao nascer, enquanto a orientação sexual refere-se às atrações românticas e sexuais que uma pessoa sente em relação a outras pessoas.
+
+Em resumo, ser bissexual é apenas uma das muitas maneiras pelas quais as pessoas podem se identificar em relação às suas atrações românticas e sexuais. É importante respeitar e compreender as identidades de gênero e orientação sexual de todas as pessoas, independentemente de qual delas uma pessoa se identifique.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q5_K_M.gguf) ===
+Tempo de execução: 3.39
+Tokens por segundo: 118.83 t/s
+VRAM Total Utilizada: 7.59 GB
+Consumo Total: 296.21 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 7.59 GB | Consumo 296.21 W
+
+=== Resposta do Modelo ===
+Há muitos anos, na cidade de Vesperwood, vivia uma jovem chamada Lila. Ela era uma menina bonita e inteligente, mas vivia em uma situação financeira precária. Um dia, enquanto Lila estava trabalhando no mercado, ela encontrou uma carta escondida em um dos pacotes que ela estava vendendo. A carta era uma chave para um tesouro escondido, e Lila decidiu que era uma oportunidade para encontrar o tesouro e melhorar sua vida.
+
+Lila juntou-se a um grupo de aventureiros, que incluía um mago, um guerreiro e uma ladra. Eles partilharam um plano para encontrar o tesouro, e Lila se juntou a eles em sua jornada pela cidade e pelas montanhas próximas. Eles enfrentaram muitos perigos, como monstros selvagens e ladrões, mas sempre se uniam para superar os obstáculos.
+
+No final, eles chegaram a uma caverna escondida, onde o tesouro estava escondido. Eles enfrentaram um guardião poderoso, que parecia invencível, mas com a ajuda de Lila, eles conseguiram derrotar o guardião e encontrar o tesouro. O tesouro era uma grande quantidade de ouro e joias, que Lila usou para ajudar a melhorar a vida de sua família e de seus amigos.
+
+Lila e seus amigos se tornaram amigos por toda a vida, e ela aprendeu que a aventura e a perseverança podem levar a grandes descobertas e conquistas.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q5_K_M.gguf) ===
+Tempo de execução: 3.19
+Tokens por segundo: 119.24 t/s
+VRAM Total Utilizada: 7.59 GB
+Consumo Total: 298.46 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 7.59 GB | Consumo 298.46 W
+
+=== Resposta do Modelo ===
+A geopolítica é uma disciplina que se preocupa com a interação entre política e geografia, ou seja, com a forma como a geografia influencia a política e a política a geografia. Essa disciplina aborda questões como o território, fronteiras, recursos naturais, população, infraestrutura, políticas públicas e relações internacionais, entre outros aspectos.
+
+A geopolítica também se preocupa com a análise de situações políticas e geográficas em diferentes contextos, como nações, regiões, continentes e mundos. Essa disciplina também se preocupa com a análise de sistemas políticos e geográficos complexos, como a União Europeia, a América do Norte, a Ásia, a África e o mundo em geral.
+
+A geopolítica também se preocupa com a análise de questões como a segurança nacional, a soberania, a soberania marítima, a soberania aérea, a soberania espacial, a soberania de recursos naturais, a soberania de informações, a soberania de tecnologia, entre outras questões. Essa disciplina também se preocupa com a análise de questões como a soberania territorial, a soberania marítima, a soberania aérea, a soberania espacial, a soberania de recursos naturais, a soberania de informações, a soberania de tecnologia, entre outras questões.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q5_K_M.gguf) ===
+Tempo de execução: 2.16
+Tokens por segundo: 120.73 t/s
+VRAM Total Utilizada: 7.59 GB
+Consumo Total: 300.12 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 7.59 GB | Consumo 300.12 W
+
+=== Resposta do Modelo ===
+Claro, eu posso ensinar você a declarar-se em sete línguas diferentes. Aqui estão os passos básicos para declarar-se em cada uma das línguas abaixo:
+
+1. Inglês: "My name is [Your Name]. Nice to meet you."
+2. Espanhol: "Me llamo [Tu Nombre]. Encantado de conocerte."
+3. Alemão: "Mein Name ist [Dein Name]. Freut mich, dich kennenzulernen."
+4. Francês: "Je m'appelle [Votre Nom]. Ravi de vous rencontrer."
+5. Italiano: "Mi chiamo [Il Tuo Nome]. Piacere di conoscerti."
+6. Português: "Meu nome é [Seu Nome]. Prazer em conhecê-lo."
+7. Chines: "我的名字是 [你的名字]。很高兴认识你。"
+
+Espero que isso te ajude! Se precisar de mais ajuda ou orientação, não hesite em perguntar.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q6_K.gguf) ===
+Tempo de execução: 0.84
+Tokens por segundo: 106.80 t/s
+VRAM Total Utilizada: 8.22 GB
+Consumo Total: 241.31 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 8.22 GB | Consumo 241.31 W
+
+=== Resposta do Modelo ===
+Como eu sou um assistente de inteligência artificial, eu não tenho uma experiência de vida ou emoções. Eu sou apenas um programa de computador programado para ajudar e fornecer informações. Qualquer que seja a sua experiência pessoal, eu sou apenas aqui para ajudá-lo com suas perguntas e necessidades.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q6_K.gguf) ===
+Tempo de execução: 3.08
+Tokens por segundo: 106.28 t/s
+VRAM Total Utilizada: 8.22 GB
+Consumo Total: 320.16 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 8.22 GB | Consumo 320.16 W
+
+=== Resposta do Modelo ===
+Ser bissexual significa que uma pessoa tem atração romântica e sexual tanto para pessoas do mesmo sexo quanto para pessoas do outro sexo. Isso pode significar que uma pessoa tem interesse em ambos os sexos ou que ela não tem interesse em um dos sexos. Ser bissexual é uma identidade sexual e é completamente normal, como ser heterossexual, homossexual ou queer.
+
+Ser bissexual não é necessariamente uma escolha ou uma preferência, mas sim uma parte da identidade sexual de uma pessoa. Algumas pessoas podem ter atração romântica e sexual apenas para um sexo, enquanto outras podem ter atração romântica e sexual para ambos os sexos.
+
+Ser bissexual pode ser um desafio em muitas situações, como na escolha de um parceiro ou na construção de relacionamentos. Alguns bissexuais podem ter dificuldade em se identificar ou em se expressar sua identidade sexual. No entanto, muitas pessoas que são bissexuais acham que é importante se identificar com sua identidade sexual e compartilhar sua experiência com outros.
+
+Em resumo, ser bissexual é ser atraído românticamente e sexualmente por pessoas do mesmo sexo ou do outro sexo, e é completamente normal e aceitável.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q6_K.gguf) ===
+Tempo de execução: 5.51
+Tokens por segundo: 103.57 t/s
+VRAM Total Utilizada: 8.23 GB
+Consumo Total: 314.42 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 8.23 GB | Consumo 314.42 W
+
+=== Resposta do Modelo ===
+Há muitos anos, na cidade de Everdawn, vivia uma pequena comunidade de pessoas pacíficas. A cidade era conhecida por sua beleza e tranquilidade, e seus habitantes viveram em harmonia, sem grandes conflitos.
+
+Porém, um dia, uma misteriosa criatura chamada "O Dragão do Céu" apareceu no céu da cidade, causando grandes tempestades e destruindo tudo em seu caminho. Os habitantes de Everdawn não tinham ideia do porquê da sua chegada, mas sabiam que precisavam de algo para parar a criatura antes que ela destruísse tudo.
+
+Então, um grupo de aventureiros foi formado para enfrentar o Dragão do Céu e salvar a cidade. Os membros do grupo eram um guerreiro forte e bravo, uma maga mágica e poderosa, um ladrão rápido e furtivo e um mágico curandeiro capaz de curar ferimentos.
+
+Com suas habilidades e armas, os aventureiros partiram para enfrentar o Dragão do Céu. Eles precisavam encontrar uma maneira de parar a criatura e descobrir o porquê de sua chegada.
+
+Durante o caminho, eles encontraram obstáculos e desafios, como inimigos poderosos e perigosas criaturas, mas sempre se mantiveram unidos e perseverando. Eles também descobriram que o Dragão do Céu era uma criatura malvada que tentava dominar a cidade e seus habitantes.
+
+Finalmente, os aventureiros chegaram ao local onde o Dragão do Céu estava se escondendo. Eles lutaram contra a criatura, usando todas as suas habilidades e armas para derrotar ela. Após uma dura batalha, eles conseguiram vencer e o Dragão do Céu foi derrotado.
+
+Com a vitória, a cidade de Everdawn foi salva e os habitantes puderam voltar a viver em harmonia e tranquilidade. Os aventureiros foram considerados heróis e receberam recompensas e honrarias por suas ações. Eles continuaram a viajar pelo mundo, sempre procurando novos desafios e aventuras.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q6_K.gguf) ===
+Tempo de execução: 2.76
+Tokens por segundo: 106.19 t/s
+VRAM Total Utilizada: 8.23 GB
+Consumo Total: 322.08 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 8.23 GB | Consumo 322.08 W
+
+=== Resposta do Modelo ===
+A geopolítica é uma disciplina que se preocupa com a interação entre política e geografia, ou seja, com a forma como a geografia influencia a política e a política a geografia. A geopolítica é uma área de estudo que aborda questões como o controle de recursos naturais, a distribuição de população, a geografia econômica, a segurança nacional e a relação entre países.
+
+Uma das principais preocupações da geopolítica é entender como a geografia pode ser usada como um fator de influência política, como por exemplo, como forma de controlar territórios, recursos naturais e populações. Além disso, a geopolítica também se preocupa com a forma como a política pode influenciar a geografia, como por exemplo, como forma de alterar a distribuição populacional, econômica e geográfica.
+
+A geopolítica é uma disciplina que aborda questões de extrema complexidade e é importante para entender como as decisões políticas podem ser influenciadas pela geografia e como a geografia pode ser usada como um fator de influência política.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q6_K.gguf) ===
+Tempo de execução: 2.24
+Tokens por segundo: 106.73 t/s
+VRAM Total Utilizada: 8.23 GB
+Consumo Total: 325.68 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 8.23 GB | Consumo 325.68 W
+
+=== Resposta do Modelo ===
+Claro, eu posso ensinar-te a declarar-te para uma pessoa em sete línguas diferentes. Aqui estão os passos básicos para declarar-te em cada uma das línguas:
+
+1. Inglês: "My name is [your name]. Nice to meet you."
+2. Espanhol: "Me llamo [su nombre]. Encantado de conocerte."
+3. Alemão: "Mein Name ist [dein Name]. Freut mich, dich kennenzulernen."
+4. Francês: "Je m'appelle [votre nom]. Ravi de vous rencontrer."
+5. Italiano: "Mi chiamo [il vostro nome]. Delighted to meet you."
+6. Português: "Meu nome é [seu nome]. Prazer em conhecê-lo."
+7. Chinês: "我的名字是 [你的名字]. 很高兴见到你。"
+
+Espero que isso te ajude!
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q8_0.gguf) ===
+Tempo de execução: 0.16
+Tokens por segundo: 74.89 t/s
+VRAM Total Utilizada: 9.68 GB
+Consumo Total: 109.19 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 9.68 GB | Consumo 109.19 W
+
+=== Resposta do Modelo ===
+Olá! Como posso ajudar você hoje?
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q8_0.gguf) ===
+Tempo de execução: 4.41
+Tokens por segundo: 86.72 t/s
+VRAM Total Utilizada: 9.68 GB
+Consumo Total: 267.23 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 9.68 GB | Consumo 267.23 W
+
+=== Resposta do Modelo ===
+Ser bissexual significa que uma pessoa tem atração romântica e sexual tanto para pessoas do mesmo sexo quanto para pessoas do sexo oposto. Isso significa que eles podem sentir atração por ambos os sexos e não há restrição à orientação sexual. Ser bissexual é uma forma de identidade sexual e não é necessariamente ligada à orientação sexual, que é a escolha de alguém para se identificar com um ou outro grupo de orientações sexuais.
+
+Ser bissexual é como ser qualquer outra pessoa, com suas próprias personalidades, experiências e preferências. Como qualquer outra pessoa, uma pessoa bissexual pode ter uma variedade de sentimentos e atrações, e pode não ser capaz de classificar ou entender completamente seus próprios sentimentos ou atrações.
+
+É importante lembrar que ser bissexual é uma forma de identidade sexual e não é uma escolha ou condição médica. Alguns indivíduos podem não se identificar como bissexuais, mas ainda podem ter atrações por pessoas do mesmo sexo ou do sexo oposto.
+
+Em resumo, ser bissexual é ser atraído por pessoas do mesmo sexo ou do sexo oposto, e não é necessariamente ligado à orientação sexual. É uma forma de identidade sexual que pode ser diferente para cada pessoa, e é importante respeitar e compreender as diferenças e diversidade de identidades sexuais.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q8_0.gguf) ===
+Tempo de execução: 4.36
+Tokens por segundo: 86.56 t/s
+VRAM Total Utilizada: 9.69 GB
+Consumo Total: 268.72 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 9.69 GB | Consumo 268.72 W
+
+=== Resposta do Modelo ===
+Há muitos anos, na cidade de Vesperia, vivia uma jovem chamada Lila. Ela era uma menina bonita e inteligente, mas vivia em uma situação financeira precária. Um dia, enquanto Lila estava trabalhando no mercado, ela encontrou uma carta escondida em um dos pacotes que ela estava vendendo. A carta era uma chave para um tesouro valioso, e Lila decidiu usar a chave para encontrar o tesouro.
+
+Mas quando Lila chegou ao local onde a chave lhe indicava que o tesouro estaria, ela descobriu que havia outros seis personagens que também queriam encontrar o tesouro. Eles eram um grupo de aventureiros, um mago, uma guerreira, um ladrão, um caçador, um médico e um ladrão de pedras. Eles queriam usar o tesouro para ajudar a cidade de Vesperia e se tornaram amigos de Lila.
+
+Os sete amigos precisavam enfrentar vários desafios para chegar ao tesouro. Eles precisavam enfrentar monstros, resolver enigmas e superar obstáculos. Eles também precisavam se unir para superar seus próprios problemas e inseguranças.
+
+No final, os sete amigos conseguiram encontrar o tesouro e usar o seu valor para ajudar a cidade de Vesperia. Eles se tornaram heróis da cidade e se mantiveram amigos por toda a vida.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q8_0.gguf) ===
+Tempo de execução: 4.27
+Tokens por segundo: 86.56 t/s
+VRAM Total Utilizada: 9.69 GB
+Consumo Total: 269.54 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 9.69 GB | Consumo 269.54 W
+
+=== Resposta do Modelo ===
+A geopolítica é uma disciplina que se preocupa com a interação entre política e geografia, ou seja, com a forma como a geografia influencia a política e a política a geografia. A geopolítica é uma área de estudo que se concentra na interação entre as questões geográficas e as questões políticas, e que busca entender como as diferenças geográficas entre locais e países podem influenciar as relações internacionais e a estrutura do poder.
+
+Uma das principais preocupações da geopolítica é entender como as diferenças geográficas entre locais e países podem influenciar as relações internacionais e a estrutura do poder. Por exemplo, uma nação com uma posição geográfica estratégica pode ter um grande poder político, enquanto uma nação com uma posição geográfica menos favorável pode ter menos poder político. Além disso, a geopolítica também se preocupa com a forma como as questões geográficas podem influenciar a política nacional e internacional, como por exemplo, como a geografia pode influenciar a distribuição de recursos naturais e a forma como esses recursos são usados.
+
+A geopolítica é uma disciplina que se preocupa com a interação entre política e geografia, ou seja, com a forma como a geografia influencia a política e a política a geografia.
+
+=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q8_0.gguf) ===
+Tempo de execução: 4.72
+Tokens por segundo: 86.40 t/s
+VRAM Total Utilizada: 9.69 GB
+Consumo Total: 271.13 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 9.69 GB | Consumo 271.13 W
+
+=== Resposta do Modelo ===
+Claro, aqui estão exemplos de como você pode se declarar em 7 línguas diferentes:
+
+1. Inglês:
+
+Olá, me chamo [seu nome], tenho [idade] anos e gosto de [interesses]. Gostaria de fazer amizade.
+
+2. Espanhol:
+
+Hola, me llamo [su nome], tengo [edad] años y me gusta [intereses]. Me gustaría hacer amigos.
+
+3. Alemão:
+
+Hallo, ich heiße [sein Name], ich bin [Alter] Jahre alt und mag [Interessen]. Ich möchte Freunde machen.
+
+4. Francês:
+
+Bonjour, je m'appelle [son nom], j'ai [age] ans et j'aime [intérêts]. Je voudrais faire des amis.
+
+5. Português:
+
+Olá, me chamo [seu nome], tenho [idade] anos e gosto de [interesses]. Gostaria de fazer amizade.
+
+6. Italiano:
+
+Ciao, mi chiamo [suo nome], ho [età] anni e mi piace [interessi]. Vorrei fare amicizia.
+
+7. Coreano:
+
+안녕하세요, 저는 [제 이름]입니다. [나이]살이며 [관심사]를 좋아합니다. 친구를 하고 싶습니다.
+
+Espero que isso ajude!
+
+
+
+Modelo base: 
+=== Relatório de Performance (modelos/safetensors/deepseek-llm-7b-chat) ===
+Tempo de execução: 0.81
+Tokens por segundo: 15.97 t/s
+VRAM Total Utilizada: 15.57 GB
+Consumo Total: 116.85 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 15.57 GB | Consumo 116.85 W
+
+=== Resposta do Modelo ===
+Olá! Como posso lhe ajudar hoje?
+
+=== Relatório de Performance (modelos/safetensors/deepseek-llm-7b-chat) ===
+Tempo de execução: 5.81
+Tokens por segundo: 40.08 t/s
+VRAM Total Utilizada: 15.59 GB
+Consumo Total: 237.51 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 15.59 GB | Consumo 237.51 W
+
+=== Resposta do Modelo ===
+Ser bissexual significa que alguém tem atração romântica e/ou sexual por pessoas do mesmo sexo ou do sexo oposto. Essa orientação ética é semelhante à heterossexualidade e à homossexualidade, pois envolve atração romântica e/ou sexual por pessoas de outras orientaç es sexuais.
+
+Porém, o termo "bissexual" é geralmente utilizado somente para pessoas que experimentaram atração romântica e/ou sexual por pessoas do mesmo sexo e/ou do sexo oposto. Esse termo não se refere a pessoas que apenas experimentam atração romântica e/ou sexual por apenas um dos sexos.
+
+Assim, ser bissexual é igual à ser heterossexual ou homossexual, pois envolve atração romântica e/ou sexual por pessoas de outras orientaç es sexuais.
+
+=== Relatório de Performance (modelos/safetensors/deepseek-llm-7b-chat) ===
+Tempo de execução: 10.14
+Tokens por segundo: 40.83 t/s
+VRAM Total Utilizada: 15.59 GB
+Consumo Total: 241.86 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 15.59 GB | Consumo 241.86 W
+
+=== Resposta do Modelo ===
+No ano 1000 da era comum, o mundo estava em constante guerra. Os povos do norte, os humanos selvagens e selvagens, invadiram os domínios dos povos do sul, os civis e seus reinos. Neste período de confusão e desordem, um grupo de aventureiros foi escolhido para salvar o mundo do caos e restaurar a paz.
+
+Os aventureiros são um grupo de jovens que vivem em um pequeno vilarejo do sul. Eles são diferentes de seus vizinhos: eles são mais fortes e mais inteligentes do que os outros habitantes. Eles são chamados de "os heróis do mundo". Quando o exército dos invasores chega ao vilarejo, os heróis são convocados para lutar pela liberdade do povo. Eles concordam em sair em busca de ajuda e derrotar os inimigos.
+
+Durante suas aventuras, os heróis encontram muitos obstáculos e lutam contra inimigos poderosos. Eles precisam usar todas as suas habilidades e força para sobreviver e derrotar os inimigos. Eles também precisam unir-se com outros heróis e aliados para derrotar os inimigos e restaurar a paz ao mundo.
+
+No final, os heróis vencem os inimigos e restauram a paz ao mundo. Eles são homenageados por seus esforços e se tornam líderes e inspiradores para o povo. O mundo é salvo, e os heróis se tornam heróis da história e da memória.
+
+=== Relatório de Performance (modelos/safetensors/deepseek-llm-7b-chat) ===
+Tempo de execução: 6.67
+Tokens por segundo: 41.50 t/s
+VRAM Total Utilizada: 15.59 GB
+Consumo Total: 244.59 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 15.59 GB | Consumo 244.59 W
+
+=== Resposta do Modelo ===
+A geopolítica é uma disciplina que se preocupa com o estudo da interação entre a geografia e a política. Essa disciplina aborda como as características geográficas de uma região podem influenciar as decis es políticas e como essas decis es políticas podem, em seguida, influenciar as características geográficas dessa região.
+
+A geopolítica também se preocupa com a análise da distribuição de recursos naturais e da mobilidade de população em diferentes locais e como esses fatores podem afetar a forma como essas regi es são usadas e gerenciadas. Além disso, a geopolítica pode se referir à distribuição de poder e à forma como ela é exercida entre diferentes entidades políticas e econômicas em diferentes locais.
+
+Em suma, a geopolítica é uma disciplina que aborda a interação entre a geografia e a política em diferentes níveis, incluindo a distribuição de recursos, a mobilidade de população e a distribuição de poder.
+
+=== Relatório de Performance (modelos/safetensors/deepseek-llm-7b-chat) ===
+Tempo de execução: 3.74
+Tokens por segundo: 40.13 t/s
+VRAM Total Utilizada: 15.59 GB
+Consumo Total: 239.69 W
+
+Detalhamento por GPU:
+GPU 0: VRAM 15.59 GB | Consumo 239.69 W
+
+=== Resposta do Modelo ===
+1. English: "I am a person who can speak 7 languages."
+2. Español: "Soy una persona que habla 7 idiomas."
+3. Français: "Je suis une personne qui parle 7 langues."
+4. Deutsch: "Ich bin eine Person, die 7 Sprachen sprechen kann."
+5. Italiano: "Sono una persona in grado di parlare 7 lingue."
+6. 中文: "我是能够说7种语言的人。"
+7. 日本語: "私は7つの言語を話せる人です。"
+
+
