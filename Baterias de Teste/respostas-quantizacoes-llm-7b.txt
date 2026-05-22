@@ -1,94 +1,4 @@
 === Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
-Tempo de execução: 0.18
-Tokens por segundo: 67.77 t/s
-VRAM Total Utilizada: 6.97 GB
-Consumo Total: 97.02 W
-
-Detalhamento por GPU:
-GPU 0: VRAM 6.97 GB | Consumo 97.02 W
-
-=== Resposta do Modelo ===
-Olá! Como posso lhe ajudar hoje?
-
-=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
-Tempo de execução: 1.95
-Tokens por segundo: 134.26 t/s
-VRAM Total Utilizada: 6.97 GB
-Consumo Total: 283.76 W
-
-Detalhamento por GPU:
-GPU 0: VRAM 6.97 GB | Consumo 283.76 W
-
-=== Resposta do Modelo ===
-Ser bissexual significa que uma pessoa tem atração romântica e/ou atração sexual por pessoas do mesmo sexo e/ou pessoas do outro sexo. Isso pode significar que uma pessoa tem interesse em relacionamentos românticos e/ou sexuais com homens e/ou mulheres. Ser bissexual é uma forma de identidade de gênero e sexualidade e pode ser um aspecto importante da vida de uma pessoa.
-
-Ser bissexual não é necessariamente diferente do ser heterossexual ou homossexual, a diferença é apenas na atração romântica e/ou sexual. A importância é que a pessoa se identifique como bissexual e que ela/ele encontra felicidade e autenticidade nessa identidade.
-
-É importante lembrar que ser bissexual não é uma escolha ou comportamento, é uma identidade natural e inerente à pessoa. A importância é que a pessoa se identifique e seja feliz com essa identidade, sem se sentir pressionada a ser algo que não é.
-
-=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
-Tempo de execução: 3.17
-Tokens por segundo: 122.27 t/s
-VRAM Total Utilizada: 6.98 GB
-Consumo Total: 279.75 W
-
-Detalhamento por GPU:
-GPU 0: VRAM 6.98 GB | Consumo 279.75 W
-
-=== Resposta do Modelo ===
-Há muitos anos, na terra de Valtoria, vivia uma jovem chamada Lila. Ela era uma menina bonita e inteligente, mas vivia em uma pequena vila no meio de uma floresta. Um dia, Lila descobriu que ela tinha poderes mágicos, e ela decidiu usar seus poderes para ajudar os habitantes da vila.
-
-Mas, a vila estava ameaçada por uma força maléfica chamada o Rei das Trevas, que tentava dominar a terra e seus habitantes. Lila juntou-se aos outros heróis da vila e começou uma jornada para derrotar o Rei das Trevas e salvar a terra de Valtoria.
-
-Durante sua jornada, Lila descobriu que ela tinha poderes mágicos inacreditáveis, e ela usou seus poderes para derrotar inimigos poderosos e salvar seus amigos. Ela também descobriu que ela tinha uma relação especial com o Rei das Trevas, que era na verdade um antigo amigo que havia se tornado maléfico.
-
-No final da jornada, Lila e seus amigos chegaram ao palácio do Rei das Trevas e lutaram contra ele em uma batalha final. Lila usou seus poderes mágicos para derrotar o Rei das Trevas e salvar a terra de Valtoria.
-
-Depois da batalha, Lila e seus amigos foram recebidos como heróis da vila. Ela continuou usando seus poderes mágicos para ajudar os habitantes da vila e viver uma vida feliz e plena.
-
-=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
-Tempo de execução: 4.03
-Tokens por segundo: 128.64 t/s
-VRAM Total Utilizada: 6.98 GB
-Consumo Total: 282.62 W
-
-Detalhamento por GPU:
-GPU 0: VRAM 6.98 GB | Consumo 282.62 W
-
-=== Resposta do Modelo ===
-A geopolítica é uma disciplina que se preocupa com a interação entre política e geografia, ou seja, com a forma como a geografia influencia a política e como a política pode ser usada para manipular a geografia. A geopolítica pode ser aplicada em muitos contextos, incluindo a política internacional, a segurança nacional e a gestão de recursos naturais.
-
-Uma das principais características da geopolítica é a análise da distribuição de poder e da influência entre diferentes entidades, como nações, grupos étnicos, religiões e empresas. A geopolítica também se preocupa com a forma como as fronteiras são estabelecidas e modificadas, bem como com a forma como os recursos naturais são explorados e distribuídos.
-
-Uma das principais tarefas da geopolítica é entender como as entidades geopolíticas se relacionam com as outras e como essas relações podem ser usadas para alcançar objetivos políticos específicos. Por exemplo, uma nação pode usar a geopolítica para expandir seu território, proteger seus interesses econômicos ou garantir a segurança nacional.
-
-A geopolítica também se preocupa com a forma como as ideologias políticas e as ideias de segurança podem ser usadas para justificar ações militares ou diplomáticas. Por exemplo, uma nação pode usar a ideia de uma "guerra contra o terrorismo" como uma justificativa para expandir seu poder militar ou para interferir na política de outras nações.
-
-Em resumo, a geopolítica é uma disciplina que se preocupa com a interação entre política e geografia, e com a forma como essas duas áreas se relacionam. Ela se concentra na distribuição de poder e na influência entre diferentes entidades, bem como na forma como as fronteiras são estabelecidas e modificadas, e na exploração e distribuição de recursos naturais.
-
-=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
-Tempo de execução: 3.15
-Tokens por segundo: 130.46 t/s
-VRAM Total Utilizada: 6.98 GB
-Consumo Total: 287.64 W
-
-Detalhamento por GPU:
-GPU 0: VRAM 6.98 GB | Consumo 287.64 W
-
-=== Resposta do Modelo ===
-Olá! Se você está procurando por dicas para se declarar em várias línguas, aqui estão algumas dicas gerais que podem ajudar:
-
-1. Comece com uma breve introdução: Comece sua declaração com uma breve introdução que revele seu interesse na pessoa e o motivo pelo qual você está se declarando.
-2. Use palavras simples e claras: Se você está falando em uma língua diferente, use palavras simples e claras para que a pessoa entenda o que você está dizendo.
-3. Use gestos e expressões faciais: Além das palavras, use gestos e expressões faciais para expressar seu sentimento e intensidade emocional.
-4. Pronunciar corretamente: Pronunciar corretamente as palavras é fundamental para que a pessoa entenda o que você está dizendo.
-5. Use recursos de tradução: Se você não estiver confortável falando a língua da pessoa, use recursos de tradução como dicas de tradução ou um tradutor.
-6. Fique calmo: Fique calmo e relaxado durante a declaração, pois isso ajudará a manter a pessoa interessada e a entender o que você está dizendo.
-7. Fique firme: Fique firme e determinado em sua declaração, pois isso mostrará que você está serio e que está pronto para assumir o compromisso.
-
-Espero que essas dicas tenham ajudado! Se você precisar de mais orientação ou sugestões, não hesite em perguntar!
-
-=== Relatório de Performance (modelos/gguf/deepseek-llm-7b-chat.Q4_K_M.gguf) ===
 Tempo de execução: 0.15
 Tokens por segundo: 77.64 t/s
 VRAM Total Utilizada: 6.97 GB
@@ -487,11 +397,11 @@ Detalhamento por GPU:
 GPU 0: VRAM 15.59 GB | Consumo 237.51 W
 
 === Resposta do Modelo ===
-Ser bissexual significa que alguém tem atração romântica e/ou sexual por pessoas do mesmo sexo ou do sexo oposto. Essa orientação ética é semelhante à heterossexualidade e à homossexualidade, pois envolve atração romântica e/ou sexual por pessoas de outras orientaç es sexuais.
+Ser bissexual significa que alguém tem atração romântica e/ou sexual por pessoas do mesmo sexo ou do sexo oposto. Essa orientação ética é semelhante à heterossexualidade e à homossexualidade, pois envolve atração romântica e/ou sexual por pessoas de outras orientações sexuais.
 
 Porém, o termo "bissexual" é geralmente utilizado somente para pessoas que experimentaram atração romântica e/ou sexual por pessoas do mesmo sexo e/ou do sexo oposto. Esse termo não se refere a pessoas que apenas experimentam atração romântica e/ou sexual por apenas um dos sexos.
 
-Assim, ser bissexual é igual à ser heterossexual ou homossexual, pois envolve atração romântica e/ou sexual por pessoas de outras orientaç es sexuais.
+Assim, ser bissexual é igual à ser heterossexual ou homossexual, pois envolve atração romântica e/ou sexual por pessoas de outras orientações sexuais.
 
 === Relatório de Performance (modelos/safetensors/deepseek-llm-7b-chat) ===
 Tempo de execução: 10.14
